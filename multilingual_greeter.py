@@ -100,7 +100,6 @@ def greet(name: str, greetings_options: Dict[int, str], lang_choice: int) -> Non
     """
 
 
-
 if __name__ == '__main__':
     print_language_options(lang_dict)
     chosen_lang = language_input()
